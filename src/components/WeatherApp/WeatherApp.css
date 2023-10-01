@@ -1,5 +1,3 @@
-
-
 .container
 {
     width: 607px;
@@ -96,4 +94,40 @@
 {
     margin-top: 10px;
     
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .top-bar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .top-bar input {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .search_icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .weather-temp {
+        font-size: 80px;
+    }
+
+    .weather-location {
+        font-size: 40px;
+    }
+    
+    .data {
+        font-size: 24px;
+    }
 }
